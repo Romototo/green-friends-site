@@ -1,103 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plant</title>
-    <link rel="stylesheet" href="src/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plant</title>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
 
-<body>
-    <header class="header">
-        <div class="container">
-            <input class="menu-toggle" type="checkbox" name="menu-toggle" id="menu-toggle">
-
-            <div class="header__main">
-                <img class="header__logo" src="src/img/logo.svg" alt="логотип">
-                <button class="header__burger-button">
-                    <div class="header__button-line"></div>
-                </button>
+    <body>
+        <header class="header">
+            <div class="container">
+                <input class="menu-toggle" type="checkbox" name="menu-toggle"
+                    id="menu-toggle">
+                <div class="header__main">
+                    <img class="header__logo" src="src/img/logo.svg"
+                        alt="логотип">
+                    <button class="header__burger-button">
+                        <div class="header__button-line"></div>
+                    </button>
+                </div>
+                <nav class="nav">
+                    <a href="#!" class="nav__link">Доставка</a>
+                    <a href="#!" class="nav__link">Наша фишка</a>
+                    <a href="#!" class="nav__link">Топ растений</a>
+                    <a href="#!" class="nav__link">Карта</a>
+                    <a href="#!" class="nav__link">Заказ звонка</a>
+                </nav>
             </div>
-
-            <nav class="nav">
-                <a href="#!" class="nav__link">Доставка</a>
-                <a href="#!" class="nav__link">Наша фишка</a>
-                <a href="#!" class="nav__link">Топ растений</a>
-                <a href="#!" class="nav__link">Карта</a>
-                <a href="#!" class="nav__link">Заказ звонка</a>
-            </nav>
-        </div>
-    </header>
-
-    <main class="main">
-        <section class="preview">
-            <h1 class="preview__title">
-                Твой <span class="preview__title--green">зеленый</span><br>
-                <span class="preview__title--blue">комнатный</span> друг
-            </h1>
-            <picture class="preview__picture">
-                <source srcset="src/img/header-mobile-p.png" media="(max-width: 380px)">
-                <source srcset="src/img/header-mobile-l.png" media="(max-width: 780px) and (max-height: 380px)">
-                <source srcset="src/img/header-tablet-p.png" media="(max-width: 1025px) and (max-height: 1367px)">
-                <source srcset="src/img/header-tablet-l.png" media="(max-width: 1367px) and (max-height: 1025px)">
-                <source srcset="src/img/header-desktop.png" media="(min-width: 1368px)">
-                <img src="src/img/header-mobile-p.png" alt="зеленый друг">
-            </picture>
-        </section>
-
-        <section class="delivery">
-            <div class="delivery__header">
-                <img class="delivery__img" src="src/img/section2-logo.svg" alt="мистер кактус">
-                <h2 class="delivery__title">Комнатные растения с
-                    доставкой</h2>
-            </div>
-            <p class="delivery__text">
-                Заказывай у нас комнатные растения. Доставка бесплатно. А
-                еще мы будем раз в месяц привозить тебе необходимые вещи,
-                чтобы растение цвело и доставляло тебе радость
-            </p>
-        </section>
-
-        <section class="future">
-            <div class="future__header">
-                <img class="future__img" src="src/img/section3-logo.svg" alt="мистер мега кактус">
-                <h2 class="future__title">Селекция <br>будущего</h2>
-            </div>
-            <p class="future__text">
-                Наши растения выведены с использованием современной генной
-                инженерии и последних достижений садоводства. Они
-                неприхотливы, но при этом выделяют в 100 раз больше
-                кислорода чем обычные растения
-            </p>
-        </section>
-
-        <section class="bestsellers">
-            <h2 class="bestsellers__title">Топ наших растений</h2>
-            <ul class="bestsellers__list">
-
-                <li class="bestsellers__item">
-                    <img src="src/img/bestsellers1.png" alt="друг" class="bestsellers__img">
-                    <h2 class="bestsellers__name bestsellers__name--green">Растение 1</h2>
-                </li>
-
-                <li class="bestsellers__item">
-                    <img src="src/img/bestsellers2.png" alt="дружище" class="bestsellers__img">
-                    <h2 class="bestsellers__name bestsellers__name--blue">Растение 2</h2>
-                </li>
-
-                <li class="bestsellers__item">
-                    <img src="src/img/bestsellers3.png" alt="зелень" class="bestsellers__img">
-                    <h2 class="bestsellers__name bestsellers__name--green">Растение 3</h2>
-                </li>
-
-                <li class="bestsellers__item">
-                    <img src="src/img/bestsellers4.png" alt="дружбан" class="bestsellers__img">
-                    <h2 class="bestsellers__name bestsellers__name--blue">Растение 4</h2>
-                </li>
-            </ul>
-        </section>
-    </main>
-</body>
+        </header>
+        <main class="main">
+            <section class="preview">
+                <h1 class="preview__title">
+                    Твой <span class="preview__title--green">зеленый</span><br>
+                    <span class="preview__title--blue">комнатный</span> друг
+                </h1>
+                <picture class="preview__picture">
+                    <source srcset="src/img/header-mobile-p.png"
+                        media="(max-width: 380px)">
+                    <source srcset="src/img/header-mobile-l.png"
+                        media="(max-width: 780px) and (max-height: 380px)">
+                    <source srcset="src/img/header-tablet-p.png"
+                        media="(max-width: 1025px) and (max-height: 1367px)">
+                    <source srcset="src/img/header-tablet-l.png"
+                        media="(max-width: 1367px) and (max-height: 1025px)">
+                    <source srcset="src/img/header-desktop.png"
+                        media="(min-width: 1368px)">
+                    <img src="src/img/header-mobile-p.png" alt="зеленый друг">
+                </picture>
+            </section>
+            <section class="delivery">
+                <div class="delivery__header">
+                    <img class="delivery__img" src="src/img/section2-logo.svg"
+                        alt="мистер кактус">
+                    <h2 class="delivery__title">Комнатные растения с
+                        доставкой</h2>
+                </div>
+                <p class="delivery__text">
+                    Заказывай у нас комнатные растения. Доставка бесплатно. А
+                    еще мы будем раз в месяц привозить тебе необходимые вещи,
+                    чтобы растение цвело и доставляло тебе радость
+                </p>
+            </section>
+            <section class="future">
+                <div class="future__header">
+                    <img class="future__img" src="src/img/section3-logo.svg"
+                        alt="мистер мега кактус">
+                    <h2 class="future__title">Селекция <br>будущего</h2>
+                </div>
+                <p class="future__text">
+                    Наши растения выведены с использованием современной генной
+                    инженерии и последних достижений садоводства. Они
+                    неприхотливы, но при этом выделяют в 100 раз больше
+                    кислорода чем обычные растения
+                </p>
+            </section>
+            <section class="bestsellers">
+                <h2 class="bestsellers__title">Топ наших растений</h2>
+                <ul class="bestsellers__list">
+                    <li class="bestsellers__item">
+                        <img src="src/img/bestsellers1.png" alt="друг"
+                            class="bestsellers__img">
+                        <h2
+                            class="bestsellers__name bestsellers__name--green">Растение
+                            1</h2>
+                    </li>
+                    <li class="bestsellers__item">
+                        <img src="src/img/bestsellers2.png" alt="дружище"
+                            class="bestsellers__img">
+                        <h2
+                            class="bestsellers__name bestsellers__name--blue">Растение
+                            2</h2>
+                    </li>
+                    <li class="bestsellers__item">
+                        <img src="src/img/bestsellers3.png" alt="зелень"
+                            class="bestsellers__img">
+                        <h2
+                            class="bestsellers__name bestsellers__name--green">Растение
+                            3</h2>
+                    </li>
+                    <li class="bestsellers__item">
+                        <img src="src/img/bestsellers4.png" alt="дружбан"
+                            class="bestsellers__img">
+                        <h2
+                            class="bestsellers__name bestsellers__name--blue">Растение
+                            4</h2>
+                    </li>
+                </ul>
+            </section>
+            <section class="call">
+                <h2 class="call__title">
+                    Заказать обратный звонок
+                </h2>
+                <form action="#!" class="call__form form">
+                    <div class="form__email">
+                        <label class="form__email-label"
+                            for="email">E-mail</label>
+                        <input id="email" class="form__email-input"
+                            type="email">
+                    </div>
+                    <div class="form__phone">
+                        <label class="form__phone-label" for="phone">Телефон для
+                            связи</label>
+                        <input id="phone" class="form__phone-input"
+                            type="number">
+                    </div>
+                    <button class="form__button">Отправить данные</button>
+                </form>
+            </section>
+        </main>
+    </body>
 
 </html>
