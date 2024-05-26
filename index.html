@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Plant</title>
         <link rel="stylesheet" href="src/css/style.css">
     </head>
-
     <body>
         <header class="header">
             <div class="container">
-                <input class="menu-toggle" type="checkbox" name="menu-toggle"
-                    id="menu-toggle">
                 <div class="header__main">
                     <img class="header__logo" src="src/img/logo.svg"
                         alt="логотип">
@@ -20,6 +16,10 @@
                         <div class="header__button-line"></div>
                     </button>
                 </div>
+
+                <input class="menu-toggle" type="checkbox" name="menu-toggle"
+                    id="menu-toggle">
+
                 <nav class="nav">
                     <a href="#!" class="nav__link">Доставка</a>
                     <a href="#!" class="nav__link">Наша фишка</a>
@@ -29,6 +29,7 @@
                 </nav>
             </div>
         </header>
+
         <main class="main">
             <section class="preview">
                 <h1 class="preview__title">
@@ -49,6 +50,7 @@
                     <img src="src/img/header-mobile-p.png" alt="зеленый друг">
                 </picture>
             </section>
+
             <section class="delivery">
                 <div class="delivery__header">
                     <img class="delivery__img" src="src/img/section2-logo.svg"
@@ -62,6 +64,7 @@
                     чтобы растение цвело и доставляло тебе радость
                 </p>
             </section>
+
             <section class="future">
                 <div class="future__header">
                     <img class="future__img" src="src/img/section3-logo.svg"
@@ -75,60 +78,32 @@
                     кислорода чем обычные растения
                 </p>
             </section>
+
             <section class="bestsellers">
                 <h2 class="bestsellers__title">Топ наших растений</h2>
                 <ul class="bestsellers__list">
+                    
                     <li class="bestsellers__item">
-                        <img src="src/img/bestsellers1.png" alt="друг"
-                            class="bestsellers__img">
-                        <h2
-                            class="bestsellers__name bestsellers__name--green">Растение
-                            1</h2>
+                        <img src="src/img/bestsellers1.png" alt="друг" class="bestsellers__img">
+                        <h2 class="bestsellers__name bestsellers__name--green">Растение 1</h2>
                     </li>
+
                     <li class="bestsellers__item">
-                        <img src="src/img/bestsellers2.png" alt="дружище"
-                            class="bestsellers__img">
-                        <h2
-                            class="bestsellers__name bestsellers__name--blue">Растение
-                            2</h2>
+                        <img src="src/img/bestsellers2.png" alt="дружище" class="bestsellers__img">
+                        <h2 class="bestsellers__name bestsellers__name--blue">Растение 2</h2>
                     </li>
+
                     <li class="bestsellers__item">
-                        <img src="src/img/bestsellers3.png" alt="зелень"
-                            class="bestsellers__img">
-                        <h2
-                            class="bestsellers__name bestsellers__name--green">Растение
-                            3</h2>
+                        <img src="src/img/bestsellers3.png" alt="зелень" class="bestsellers__img">
+                        <h2 class="bestsellers__name bestsellers__name--green">Растение 3</h2>
                     </li>
+
                     <li class="bestsellers__item">
-                        <img src="src/img/bestsellers4.png" alt="дружбан"
-                            class="bestsellers__img">
-                        <h2
-                            class="bestsellers__name bestsellers__name--blue">Растение
-                            4</h2>
+                        <img src="src/img/bestsellers4.png" alt="дружбан" class="bestsellers__img">
+                        <h2 class="bestsellers__name bestsellers__name--blue">Растение 4</h2>
                     </li>
                 </ul>
             </section>
-            <section class="call">
-                <h2 class="call__title">
-                    Заказать обратный звонок
-                </h2>
-                <form action="#!" class="call__form form">
-                    <div class="form__email">
-                        <label class="form__email-label"
-                            for="email">E-mail</label>
-                        <input id="email" class="form__email-input"
-                            type="email">
-                    </div>
-                    <div class="form__phone">
-                        <label class="form__phone-label" for="phone">Телефон для
-                            связи</label>
-                        <input id="phone" class="form__phone-input"
-                            type="number">
-                    </div>
-                    <button class="form__button">Отправить данные</button>
-                </form>
-            </section>
         </main>
     </body>
-
 </html>
